@@ -1,0 +1,22 @@
+<html>
+
+<head>
+
+    <title> Mi primer js</title>
+   </head>
+    <body>
+    <p>Queremos saludarte, para esto necesitamos saber tu nombre</p> 
+    <br>
+    <form id="formulario">
+        Escribe tu nombre aqui<input type="text" id="nombre"><br><br>
+        <input type="button" value="saludar" onclick="nifuncion()">
+        
+    </form>
+    <script>
+        function nifuncion(){
+            var name=document.getElementById("nombre").value;
+            alert("hola mundoooo"+name+";como estas?")
+        }
+    </script>
+    </body>
+</html>
